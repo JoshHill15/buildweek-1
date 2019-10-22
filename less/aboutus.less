@@ -1,0 +1,47 @@
+.upp{
+    font-size:8rem;
+    text-align:center;
+    background:aliceblue;
+    padding:2% 0;
+}
+
+.ppl{
+    border-top:1px solid black;
+    .flex(space-evenly);
+    font-size:@font;
+    flex-wrap:wrap;
+    background:aliceblue;
+
+
+    .b{
+        width:30%;
+        padding-bottom:2%;
+        margin:1% 0;
+
+        @media @tablet{
+            width:46%;
+        }
+
+        @media @phone{
+            width:96%;
+        }
+        
+        
+        img{
+            width:100%;
+            border-radius:20px;
+        }
+
+        h2{
+            text-align:center;
+            margin:4% 0;
+            font-size:5rem;
+        }
+
+        h3{
+            text-align:center;
+            font-size:4rem;
+            margin:4% 0;
+        }
+    }
+}
